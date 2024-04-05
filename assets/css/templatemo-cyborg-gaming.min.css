@@ -254,7 +254,7 @@ section {
     text-decoration: underline
 }
 
-/* .js-preloader {
+.js-preloader {
     -webkit-box-align: center;
     -webkit-box-pack: center;
     align-items: center;
@@ -278,8 +278,8 @@ section {
     opacity: 0;
     pointer-events: none;
     visibility: hidden
-} */
-/* 
+}
+
 @-webkit-keyframes dot {
     50% {
         -webkit-transform: translateX(96px);
@@ -318,7 +318,7 @@ section {
 .preloader-inner .dot {
     -webkit-animation: dot 2.8s infinite;
     animation: dot 2.8s infinite;
-    background: #e75e8d;
+    background: #e7e55e;
     border-radius: 50%;
     height: 16px;
     left: 15px;
@@ -341,14 +341,14 @@ section {
 }
 
 .preloader-inner .dots span {
-    background: #e75e8d;
+    background: #e7e55e;
     border-radius: 50%;
     display: block;
     float: left;
     height: 16px;
     margin-left: 16px;
     width: 16px
-} */
+}
 
 .background-header {
     background-color: #fff !important;
