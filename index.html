@@ -9,10 +9,7 @@
     <title>Cyborg - Awesome HTML5 Template</title>
     <script src="vendor/jquery/jquery.min.js" async></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js" async></script>
-    <script src="assets/js/isotope.min.js" async></script>
-    <script src="assets/js/owl-carousel.js" async></script>
-    <script src="assets/js/tabs.js" async></script>
-    <script src="assets/js/popup.js" async></script>
+    
     <script src="assets/js/custom.js" async></script>
 
     <!-- Google Fonts -->
@@ -439,8 +436,13 @@
     gtag("js", new Date());
     gtag("config", "G-P7DNGGC7GM");
   </script>
+
+  <script src="assets/js/isotope.min.js" defer></script>
+    <script src="assets/js/owl-carousel.js" defer></script>
+    <script src="assets/js/tabs.js" defer></script>
+    <script src="assets/js/popup.js" defer></script>
     <!-- Preloader Script using requestAnimationFrame -->
-    <script>
+    <script async>
       window.addEventListener("load", function () {
         const preloader = document.getElementById("js-preloader");
         function animatePreloader() {
