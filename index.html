@@ -7,18 +7,13 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Cyborg - Awesome HTML5 Template</title>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-P7DNGGC7GM"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-P7DNGGC7GM");
-    </script>
+    <script src="vendor/jquery/jquery.min.js" async></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js" async></script>
+    <script src="assets/js/isotope.min.js" async></script>
+    <script src="assets/js/owl-carousel.js" async></script>
+    <script src="assets/js/tabs.js" async></script>
+    <script src="assets/js/popup.js" async></script>
+    <script src="assets/js/custom.js" async></script>
 
     <!-- Google Fonts -->
     <link
@@ -431,14 +426,19 @@
 
     <!-- Non-essential Scripts -->
     <!-- Deferred scripts for non-essential functionality -->
-    <script src="vendor/jquery/jquery.min.js" defer></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js" defer></script>
-    <script src="assets/js/isotope.min.js" defer></script>
-    <script src="assets/js/owl-carousel.js" defer></script>
-    <script src="assets/js/tabs.js" defer></script>
-    <script src="assets/js/popup.js" defer></script>
-    <script src="assets/js/custom.js" defer></script>
-
+    
+    <script
+    defer
+    src="https://www.googletagmanager.com/gtag/js?id=G-P7DNGGC7GM"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-P7DNGGC7GM");
+  </script>
     <!-- Preloader Script using requestAnimationFrame -->
     <script>
       window.addEventListener("load", function () {
